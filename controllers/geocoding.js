@@ -1,7 +1,8 @@
 const util = require('util');
+const { google_api_key } = require('../config');
 // Initialize Google Maps Client
 const googleMapsClient = require('@google/maps').createClient({
-  key: 'AIzaSyBohcD2NS484GvJAikGTkbS4X68iQq6qC4'
+  key: google_api_key
 });
 
 // Promisify Google Map clients functions

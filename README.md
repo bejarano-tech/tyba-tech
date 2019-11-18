@@ -30,7 +30,6 @@ touch config.js
 
 module.exports = {
   google_api_key: [your api key],
-  port: [the port of the server],
   secret: [secret word for JWT]
 };
 
