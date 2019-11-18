@@ -18,7 +18,7 @@ if ( DOCKER_DB ) {
 var retry = 0;
 mongoose.connect(MONGO_DB);
 
-// app.use(morgan('combined'));
+app.use(morgan('combined'));
 app.use(cors());
 app.enable('trust proxy');
 app.use(bodyParser.json({type: '*/*'}));
