@@ -31,8 +31,10 @@ touch config.js
 module.exports = {
   google_api_key: [your api key],
   secret: [secret word for JWT]
+  port: [port to use],
 };
 
+Nota: Al ser una prueba el manejo de secretos no está implementado, por lo cual hice commit del archivo config.js con una api key de google maps descartable.
 ```
 
 Iniciar con Docker:
